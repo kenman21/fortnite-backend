@@ -19,5 +19,6 @@
 
 # Ignore secrets.yml
 secrets.yml
+application.yml
 
 .byebug_history
