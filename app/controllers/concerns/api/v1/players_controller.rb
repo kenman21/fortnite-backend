@@ -1,7 +1,10 @@
 class Api::V1::PlayersController < ApplicationController
 
-  def search
-  end 
+  def show
+  end
 
+  def search
+    byebug
+  end
 
 end
