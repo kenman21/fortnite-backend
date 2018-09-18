@@ -3,7 +3,8 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :players
-      post 'players/search', to: 'players#search'
+        post 'players/search', to: 'players#search'
+        post 'players/history', to: 'players#history'
     end
   end
 end
